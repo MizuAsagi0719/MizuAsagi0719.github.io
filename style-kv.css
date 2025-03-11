@@ -1,0 +1,76 @@
+body {
+    background-color:#1A2236;
+}
+
+.mainmenu {
+    display: flex;
+    margin: 700px auto 500px auto ;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: azure;
+    width: 700px ;
+    border: 0.5px;
+    border-style: dotted;
+    position: relative; /* 確保能用 z-index */
+    z-index: 10; /* 確保 .mainmenu 整個在最上層 */
+}
+.mainkv {
+    margin: -1200px auto 0px 0px;
+    float: inline-start;
+    width: 85%;
+    position: fixed;
+    z-index: 1
+}
+.mainmenu a {
+    background-color:#1a223673;
+    flex: 1; /* 讓每個 a 均分可用空間 */
+    border-right: 1px dotted azure;
+    text-align: center; /* 讓文字置中 */
+    padding: 10px 0; /* 上下內距，讓內容垂直置中 */
+    text-decoration: none; /* 移除底線 */
+    color: inherit; /* 讓文字顏色跟父元素一致 */
+}
+
+.mainmenu a:hover {
+    opacity:40%;
+}
+
+.mainmenu a:last-child {
+    border-right: none;
+}
+
+.intro {
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction:row;
+    flex:30% 70%;
+    width: 1000px;
+    height: 250px;
+    background-color: #1A2236;
+    position: relative; /* 確保能用 z-index */
+    box-shadow: 5px 10px 10px 5px rgba(34, 34, 34, 0.452);
+    z-index: 2; /
+}
+
+.text-intro {
+    margin: 10px 20px;
+    line-height: 2;
+}
+
+#portrait {
+    flex: 20%;
+    padding: 0px;
+   
+}
+
+.gallery-menu {
+    background-color: #1A2236;
+    margin: 200px 22.5%;
+    display: block ;
+    height:2000px ;
+    position: relative; 
+    z-index: 2; 
+}
+

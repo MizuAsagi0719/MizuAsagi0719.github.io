@@ -1,0 +1,81 @@
+* {
+    background-color:#1A2236;
+    color:white;
+}
+.video-image{
+    width: 100%;
+    border-radius: 16px;
+}
+
+.video-information{
+    margin-top:12px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.video-title{
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.channel-name{
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.upload-date{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 16px;
+}
+
+.sidebar{
+    position: fixed ;
+    width: 80px;
+    inset: 70px auto 0px 0px;
+    margin-left: 4px;
+
+}
+
+.sidebar-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    padding: 0px 16px;
+    border: 0px;
+    text-decoration: none; /* 移除底線 */
+}
+.sidebar-button img{
+    height: 24px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.sidebar-button:hover{ 
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+    border-radius: 10px;}
+
+hr{
+    margin: 6px 0px;
+}
+
+.sidebar-button p {
+    white-space: nowrap; /* 防止換行 */
+    text-align: center; /* 讓文字置中 */
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.video-grid {
+    margin-left: 100px;
+}
